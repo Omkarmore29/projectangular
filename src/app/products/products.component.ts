@@ -11,5 +11,9 @@ export class ProductsComponent implements OnInit {
 
   ngOnInit() {
   }
+  loginUserData={};
 
+  loginUser(){
+    console.log(this.loginUserData);
+}
 }
